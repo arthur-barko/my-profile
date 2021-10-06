@@ -1,0 +1,87 @@
+body {
+background: #F2F3F5;
+font-family: montserrat;
+color: #4D5255;
+}
+
+h1 {color: green;
+font-family: lato;
+letter-spacing: 6px;
+}
+
+h2 {color: 	#E3022D;
+font-size: 25px;
+font-family: montserrat bold, sans-serif;
+}
+
+img{width: 80px;}
+
+a{text-decoration: none;
+color: #3871D2;
+}
+
+a:hover{color: red;}
+
+/* Custom design with class */
+
+.container{
+width: 700px;
+margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {width: 600px;}
+}
+
+@media (max-width: 500px) {
+	.container {width: 400px;}
+}
+
+
+
+
+.box-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4;
+	margin: 20px 0px;
+	text-align: center;
+}
+ 
+.img-circle{
+border-radius: 50%;
+}
+.button-blue{
+	background-color: #3871D2;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.button-blue:hover{
+	background-color: black;
+	color: white;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: lightgrey;
+}
+
+.list-inline i:hover {
+	color: #1D9BF0;
+}
+
+#introduction p{
+padding-bottom: 40px;
+}
